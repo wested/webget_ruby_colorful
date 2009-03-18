@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
 
-  s.name              = "webget_ruby_color"
+  s.name              = "webget_ruby_colorful"
   s.summary           = "WebGet.com Ruby color settings "
-  s.version           = "1.0.2"
+  s.version           = "1.0.4"
   s.author            = "WebGet"
   s.email             = "webget@webget.com"
   s.homepage          = "http://webget.com/"
