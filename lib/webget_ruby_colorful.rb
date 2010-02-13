@@ -1,6 +1,6 @@
 =begin rdoc
 
-WebGet Ruby Gem: Colorful
+= WebGet Ruby Gem: Colorful
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
