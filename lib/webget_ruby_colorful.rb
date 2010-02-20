@@ -7,8 +7,7 @@ Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
 License:: CreativeCommons License, Non-commercial Share Alike
 License:: LGPL, GNU Lesser General Public License
 
-Color names and shades that we use
-to generate simple random color names.
+Color names and shades that generate simple random color names.
 
 Examples:
   Colorful.choice => 'Light Red'
