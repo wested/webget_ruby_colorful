@@ -8,6 +8,8 @@ License:: LGPL, GNU Lesser General Public License
 
 Color names and shades that generate simple random color names.
 
+Primary method is choice, which returns a string containing a (pseudo-)random shade and color name.
+
 Examples:
   Colorful.choice => Light Red
   Colorful.colors.choice => Red
