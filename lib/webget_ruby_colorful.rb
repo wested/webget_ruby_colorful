@@ -9,10 +9,24 @@ License:: LGPL, GNU Lesser General Public License
 
 Color names and shades that generate simple random color names.
 
+Primary method is choice, which returns a string containing a (pseudo-)random shade and color name.
+
 Examples:
-  Colorful.choice => 'Light Red'
-  Colorful.colors.choice => 'Red'
-  Colorful.shades.choice => 'Light'
+  Colorful.choice => Light Red
+  Colorful.colors.choice => Red
+  Colorful.shades.choice => Light
+
+Colors available:
+  Red, Orange, Yellow, Green, Blue, Indigo, Violet, 
+  Cyan, Magenta, Pink, Purple, Brown, 
+  Gold, Silver, Bronze, Copper, Platinum, 
+  Aquamarine, Azure, Beige, Cerulean, 
+  Chartreuse, Crimson, Fucshia, Khaki, 
+  Maroon, Mauve, Scarlet, Sepia, 
+  Sienna, Tan, Teal,  and Turquoise
+
+Shades: 
+  Light, Dark, Pale, Bright, Vivid
 
 =end
 
