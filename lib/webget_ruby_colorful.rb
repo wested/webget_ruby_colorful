@@ -9,7 +9,11 @@ License:: LGPL, GNU Lesser General Public License
 
 Color names and shades that generate simple random color names.
 
-Primary method is choice, which returns a string containing a (pseudo-)random shade and color name.
+The typical usage is the method _choice_, which returns a string containing a random shade and color name.
+
+Based on the NBS/ISCC Color System, The Universal Language of Color.
+
+See http://www.anthus.com/Colors/NBS.html
 
 Examples:
   Colorful.choice => Light Red
@@ -26,7 +30,7 @@ Colors available:
   Sienna, Tan, Teal,  and Turquoise
 
 Shades: 
-  Light, Dark, Pale, Bright, Vivid
+  Brilliant, Bright, Dark, Deep, Light, Moderate, Pale, Vivid
 
 =end
 
@@ -52,7 +56,7 @@ class Colorful
   # - one word 
   # - independent of whatever color word is chosen
 
-  SHADES = ['Light','Dark','Pale','Bright','Vivid']
+  SHADES = ['Brilliant', 'Bright', 'Dark', 'Deep', 'Light', 'Moderate', 'Pale', 'Vivid']
 
   def self.colors
     COLORS

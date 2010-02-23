@@ -139,15 +139,44 @@
 </td></tr>
 </table>
 <p>
-Color names and shades that we use to generate simple random color names.
+Color names and shades that generate simple random color names.
+</p>
+<p>
+The typical usage is the method <em>choice</em>, which returns a string
+containing a random shade and color name.
+</p>
+<p>
+Based on the NBS/ISCC Color System, The Universal Language of Color.
+</p>
+<p>
+See <a
+href="http://www.anthus.com/Colors/NBS.html">www.anthus.com/Colors/NBS.html</a>
 </p>
 <p>
 Examples:
 </p>
 <pre>
-  Colorful.choice =&gt; 'Light Red'
-  Colorful.colors.choice =&gt; 'Red'
-  Colorful.shades.choice =&gt; 'Light'
+  Colorful.choice =&gt; Light Red
+  Colorful.colors.choice =&gt; Red
+  Colorful.shades.choice =&gt; Light
+</pre>
+<p>
+Colors available:
+</p>
+<pre>
+  Red, Orange, Yellow, Green, Blue, Indigo, Violet,
+  Cyan, Magenta, Pink, Purple, Brown,
+  Gold, Silver, Bronze, Copper, Platinum,
+  Aquamarine, Azure, Beige, Cerulean,
+  Chartreuse, Crimson, Fucshia, Khaki,
+  Maroon, Mauve, Scarlet, Sepia,
+  Sienna, Tan, Teal,  and Turquoise
+</pre>
+<p>
+Shades:
+</p>
+<pre>
+  Brilliant, Bright, Dark, Deep, Light, Moderate, Pale, Vivid
 </pre>
 
 		</div>
@@ -224,10 +253,10 @@ These shade names are good examples because they are:
 					<div class="method-source-code"
 						id="choice-source">
 <pre>
-    <span class="ruby-comment cmt"># File lib/webget_ruby_colorful.rb, line 52</span>
-52:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">choice</span>
-53:     <span class="ruby-constant">SHADES</span>[<span class="ruby-identifier">rand</span><span class="ruby-operator">*</span><span class="ruby-constant">SHADES</span>.<span class="ruby-identifier">length</span>] <span class="ruby-operator">+</span> <span class="ruby-value str">' '</span> <span class="ruby-operator">+</span> <span class="ruby-constant">COLORS</span>[<span class="ruby-identifier">rand</span><span class="ruby-operator">*</span><span class="ruby-constant">COLORS</span>.<span class="ruby-identifier">length</span>]
-54:   <span class="ruby-keyword kw">end</span></pre>
+    <span class="ruby-comment cmt"># File lib/webget_ruby_colorful.rb, line 69</span>
+69:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">choice</span>
+70:     <span class="ruby-constant">SHADES</span>[<span class="ruby-identifier">rand</span><span class="ruby-operator">*</span><span class="ruby-constant">SHADES</span>.<span class="ruby-identifier">length</span>] <span class="ruby-operator">+</span> <span class="ruby-value str">' '</span> <span class="ruby-operator">+</span> <span class="ruby-constant">COLORS</span>[<span class="ruby-identifier">rand</span><span class="ruby-operator">*</span><span class="ruby-constant">COLORS</span>.<span class="ruby-identifier">length</span>]
+71:   <span class="ruby-keyword kw">end</span></pre>
 					</div>
 					
 				</div>
@@ -256,10 +285,10 @@ These shade names are good examples because they are:
 					<div class="method-source-code"
 						id="colors-source">
 <pre>
-    <span class="ruby-comment cmt"># File lib/webget_ruby_colorful.rb, line 44</span>
-44:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">colors</span>
-45:     <span class="ruby-constant">COLORS</span>
-46:   <span class="ruby-keyword kw">end</span></pre>
+    <span class="ruby-comment cmt"># File lib/webget_ruby_colorful.rb, line 61</span>
+61:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">colors</span>
+62:     <span class="ruby-constant">COLORS</span>
+63:   <span class="ruby-keyword kw">end</span></pre>
 					</div>
 					
 				</div>
@@ -288,10 +317,10 @@ These shade names are good examples because they are:
 					<div class="method-source-code"
 						id="shades-source">
 <pre>
-    <span class="ruby-comment cmt"># File lib/webget_ruby_colorful.rb, line 48</span>
-48:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">shades</span>
-49:     <span class="ruby-constant">SHADES</span>
-50:   <span class="ruby-keyword kw">end</span></pre>
+    <span class="ruby-comment cmt"># File lib/webget_ruby_colorful.rb, line 65</span>
+65:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">shades</span>
+66:     <span class="ruby-constant">SHADES</span>
+67:   <span class="ruby-keyword kw">end</span></pre>
 					</div>
 					
 				</div>
