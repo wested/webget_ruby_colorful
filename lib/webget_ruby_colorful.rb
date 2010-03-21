@@ -58,14 +58,29 @@ class Colorful
 
   SHADES = ['Brilliant', 'Bright', 'Dark', 'Deep', 'Light', 'Moderate', 'Pale', 'Vivid']
 
+  # @example
+  #   Colorful.colors.choice => Light Red
+  #
+  # @return [Array] list of color names
   def self.colors
     COLORS
   end
 
+  # @example
+  #   Colorful.shades.choice => Light
+  #
+  # @return [Array] list of shades
   def self.shades
     SHADES
   end
 
+  # Generate a random color string
+  # 
+  # @example
+  #   Colorful.choice => Light Red
+  #
+  # @return [String] random color string
+  # 
   def self.choice
     SHADES[rand*SHADES.length] + ' ' + COLORS[rand*COLORS.length]
   end
