@@ -1,76 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta name="Content-Type" content="text/html; charset=UTF-8" />
+<title>Documentation by YARD 0.5.3</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
 
-	<title>webget_ruby_colorful</title>
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html" title="Index">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
 
-	<link type="text/css" media="screen" href="rdoc.css" rel="stylesheet" />
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
 
-	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><div id='filecontents'><h1>WebGet Ruby Gem: Colorful</h1>
+<table>
+<tr><td valign="top">Author:</td><td>Joel Parker Henderson, joelparkerhenderson@gmail.com
 
-</head>
-<body class="indexpage">
+</td></tr>
+<tr><td valign="top">Copyright:</td><td>Copyright &#169; 2006-2010 Joel Parker Henderson
 
-	
-	<h1>webget_ruby_colorful</h1>
+</td></tr>
+<tr><td valign="top">License:</td><td>CreativeCommons License, Non-commercial Share Alike
 
-	
-	<p>This is the API documentation for 'webget_ruby_colorful'.</p>
-	
+</td></tr>
+<tr><td valign="top">License:</td><td>LGPL, GNU Lesser General Public License
 
-	
-	
-	<h2>Files</h2>
-	<ul>
-		
-			<li class="file"><a href="LICENSE_txt.html">LICENSE.txt</a></li>
-		
-			<li class="file"><a href="README_rdoc.html">README.rdoc</a></li>
-		
-			<li class="file"><a href="webget_ruby_colorful_gemspec.html">webget_ruby_colorful.gemspec</a></li>
-		
-			<li class="file"><a href="webget_ruby_colorful_sha512_txt.html">webget_ruby_colorful.sha512.txt</a></li>
-		
-	</ul>
-	
+</td></tr>
+</table>
+<p>
+Color names and shades that generate simple random color names.
+</p>
+<p>
+The typical usage is the method <em>choice</em>, which returns a string
+containing a random shade and color name.
+</p>
+<p>
+Based on the NBS/ISCC Color System, The Universal Language of Color.
+</p>
+<p>
+See <a
+href="http://www.anthus.com/Colors/NBS.html">www.anthus.com/Colors/NBS.html</a>
+</p>
+<p>
+Examples:
+</p>
+<pre class="code">
+  Colorful.choice =&gt; Light Red
+  Colorful.colors.choice =&gt; Red
+  Colorful.shades.choice =&gt; Light
+</pre>
+<p>
+Colors available:
+</p>
+<pre class="code">
+  Red, Orange, Yellow, Green, Blue, Indigo, Violet,
+  Cyan, Magenta, Pink, Purple, Brown,
+  Gold, Silver, Bronze, Copper, Platinum,
+  Aquamarine, Azure, Beige, Cerulean,
+  Chartreuse, Crimson, Fucshia, Khaki,
+  Maroon, Mauve, Scarlet, Sepia,
+  Sienna, Tan, Teal,  and Turquoise
+</pre>
+<p>
+Shades:
+</p>
+<pre class="code">
+  Brilliant, Bright, Dark, Deep, Light, Moderate, Pale, Vivid
+</pre>
+</div></div>
+    
+    <div id="footer">
+  Generated on Sun Mar 21 12:53:22 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool">yard</a>
+  0.5.3 (ruby-1.9.1).
+</div>
 
-	<h2>Classes/Modules</h2>
-	<ul>
-		
-		<li class="class"><a href="Colorful.html">Colorful</a></li>
-		
-		<li class="class"><a href="ColorfulTest.html">ColorfulTest</a></li>
-		
-	</ul>
-
-	<h2>Methods</h2>
-	<ul>
-		
-			<li><a href="Colorful.html#M000005">::choice &mdash; Colorful</a></li>
-		
-			<li><a href="Colorful.html#M000003">::colors &mdash; Colorful</a></li>
-		
-			<li><a href="Colorful.html#M000004">::shades &mdash; Colorful</a></li>
-		
-			<li><a href="ColorfulTest.html#M000002">#test_choice &mdash; ColorfulTest</a></li>
-		
-			<li><a href="ColorfulTest.html#M000000">#test_colors &mdash; ColorfulTest</a></li>
-		
-			<li><a href="ColorfulTest.html#M000001">#test_shades &mdash; ColorfulTest</a></li>
-		
-	</ul>
-
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
-</body>
+  </body>
 </html>
