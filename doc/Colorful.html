@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta name="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Class: Colorful</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
@@ -13,6 +13,8 @@
 </script>
 <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+<link rel="stylesheet" href="css/pygments.css" type="text/css" media="screen" charset="utf-8" />
 
   </head>
   <body>
@@ -71,6 +73,7 @@
     
   
   
+  
     <dt class="r2 last">Defined in:</dt>
     <dd class="r2 last">lib/webget_ruby_colorful.rb</dd>
   
@@ -83,9 +86,11 @@
     <dl class="constants">
       
         <dt id="COLORS-constant" class="">COLORS =
-            <span class="summary_desc">
+          <div class="docstring">
+  <div class="discussion">
+    <p>
 These color names are good examples because they are:
-
+</p>
 <ul>
 <li>one word
 
@@ -93,11 +98,17 @@ These color names are good examples because they are:
 <li>definitely a color (cf. &#8220;rose&#8221; is also a flower)
 
 </li>
-<li>not white or black.
+<li>not white or black
 
 </li>
 </ul>
-</span>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div>
         </dt>
         <dd><pre class="code"><span class='lbracket'>[</span>
     <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Red</span><span class='tstring_end'>'</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Orange</span><span class='tstring_end'>'</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Yellow</span><span class='tstring_end'>'</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Green</span><span class='tstring_end'>'</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Blue</span><span class='tstring_end'>'</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Indigo</span><span class='tstring_end'>'</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Violet</span><span class='tstring_end'>'</span></span><span class='comma'>,</span>
@@ -110,18 +121,26 @@ These color names are good examples because they are:
 <span class='rbracket'>]</span></pre></dd>
       
         <dt id="SHADES-constant" class="">SHADES =
-            <span class="summary_desc">
+          <div class="docstring">
+  <div class="discussion">
+    <p>
 These shade names are good examples because they are:
-
+</p>
 <ul>
 <li>one word
 
 </li>
-<li>independent of whatever color word is chosen.
+<li>independent of whatever color word is chosen
 
 </li>
 </ul>
-</span>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div>
         </dt>
         <dd><pre class="code"><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Brilliant</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Bright</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Dark</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Deep</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Light</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Moderate</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Pale</span><span class='tstring_end'>'</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>Vivid</span><span class='tstring_end'>'</span></span><span class='rbracket'>]</span></pre></dd>
       
@@ -130,11 +149,12 @@ These shade names are good examples because they are:
 
 
 
-  <h2>Class Method Summary</h2>
+  
+    <h2>Class Method Summary</h2>
 
-  <ul class="summary">
-    
-      <li class="public ">
+    <ul class="summary">
+      
+        <li class="public ">
   <span class="summary_signature">
     
       <a href="#choice-class_method" title="choice (class method)">+ (String) <strong>choice</strong> </a>
@@ -149,15 +169,15 @@ These shade names are good examples because they are:
   
 
   
-    <span class="summary_desc">
+    <span class="summary_desc"><div class='inline'><p>
 Generate a random color string.
-
-</span>
+</p>
+</div></span>
   
 </li>
 
-    
-      <li class="public ">
+      
+        <li class="public ">
   <span class="summary_signature">
     
       <a href="#colors-class_method" title="colors (class method)">+ (Array) <strong>colors</strong> </a>
@@ -172,15 +192,15 @@ Generate a random color string.
   
 
   
-    <span class="summary_desc">
+    <span class="summary_desc"><div class='inline'><p>
 List of color names.
-
-</span>
+</p>
+</div></span>
   
 </li>
 
-    
-      <li class="public ">
+      
+        <li class="public ">
   <span class="summary_signature">
     
       <a href="#shades-class_method" title="shades (class method)">+ (Array) <strong>shades</strong> </a>
@@ -195,15 +215,17 @@ List of color names.
   
 
   
-    <span class="summary_desc">
+    <span class="summary_desc"><div class='inline'><p>
 List of shades.
-
-</span>
+</p>
+</div></span>
   
 </li>
 
-    
-  </ul>
+      
+    </ul>
+  
+
 
 
   <div id="class_method_details" class="method_details_list">
@@ -231,8 +253,8 @@ Generate a random color string
   <div class="examples">
     <h3>Examples:</h3>
     
-      <h4></h4>
-      <pre class="example code">  Colorful.choice =&gt; Light Red</pre>
+      <h4><div class='inline'></div></h4>
+      <pre class="example code">Colorful.choice =&gt; Light Red</pre>
     
   </div>
 <h3>Returns:</h3>
@@ -246,10 +268,10 @@ Generate a random color string
       
       
         &mdash;
-        
+        <div class='inline'><p>
 random color string
-
-
+</p>
+</div>
       
     </li>
   
@@ -297,8 +319,8 @@ List of color names
   <div class="examples">
     <h3>Examples:</h3>
     
-      <h4></h4>
-      <pre class="example code">  Colorful.colors.choice =&gt; Light Red</pre>
+      <h4><div class='inline'></div></h4>
+      <pre class="example code">Colorful.colors.choice =&gt; Light Red</pre>
     
   </div>
 <h3>Returns:</h3>
@@ -312,10 +334,10 @@ List of color names
       
       
         &mdash;
-        
+        <div class='inline'><p>
 list of color names
-
-
+</p>
+</div>
       
     </li>
   
@@ -363,8 +385,8 @@ List of shades
   <div class="examples">
     <h3>Examples:</h3>
     
-      <h4></h4>
-      <pre class="example code">  Colorful.shades.choice =&gt; Light</pre>
+      <h4><div class='inline'></div></h4>
+      <pre class="example code">Colorful.shades.choice =&gt; Light</pre>
     
   </div>
 <h3>Returns:</h3>
@@ -378,10 +400,10 @@ List of shades
       
       
         &mdash;
-        
+        <div class='inline'><p>
 list of shades
-
-
+</p>
+</div>
       
     </li>
   
@@ -413,9 +435,9 @@ list of shades
 </div>
     
     <div id="footer">
-  Generated on Sun Mar 21 12:53:22 2010 by 
+  Generated on Tue Mar 30 16:48:51 2010 by 
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool">yard</a>
-  0.5.3 (ruby-1.9.1).
+  0.5.4 (ruby-1.9.1).
 </div>
 
   </body>
